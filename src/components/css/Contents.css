@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin-top: 150px;
+}
+iframe{
+    width: 400px;
+    height: 400px;
+}
+.carousel-item{
+    /* display: inline-block; */
+    height: 300px;
+}
+.carousel-initialized{
+    width: 900px;
+    text-align: center;
+}
+
+.contents-container h2{
+    text-align: center;
+}
+.contents-container section{
+    display: flex;
+    width: 1500px;
+    margin: 0 auto;
+}
+.contents-container section:last-child{
+    margin-top: 100px;
+}
+.contents-container section .carousel-container{
+    margin-right: 150px;
+}
+.contents-container section .carousel-container:last-child{
+    margin-right: 0;
+}
+.contents-container .Info{
+    width: 1500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.contents-container .Info ul{
+    text-align: center;
+}
+.contents-container .Info ul li{
+    display :inline-block;
+    width: 250px;
+    height: 250px;
+    background-color: lightskyblue;
+    margin-right: 130px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.contents-container .Info ul li:last-child{
+    margin-right: 0;
+}
+.contents-container .Info ul li:after{
+    content: '';
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: lightseagreen;
+    border-radius: 0 0 40 40;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.contents-container .Info ul li:nth-child(1):after{
+    content:'기술력+학습관리+자가학습'
+}
+.contents-container .Info ul li:nth-child(2):after{
+    content:'공간제약이 없는 온라인 플랫폼'
+}
+.contents-container .Info ul li:nth-child(3):after{
+    content:'즐거운 codeTogether!!'
+}
+.contents-container .Intro{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.header-container{
+    width: 100%;
+    height: 100px;
+    background-color: #13C7A3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:10;
+}
+.header-container header{
+    width: 1000px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+.header-container header:after{
+    clear: both;
+}
+.header-container header h1{
+    float: left;
+    font-size: 40px;
+    line-height: 100px;
+}
+.header-container header nav{
+    float: right;
+}
+.header-container header nav ul li{
+    float: left;
+    margin-right: 70px;
+}
+.header-container header nav ul li:last-child{
+    margin-right: 0;
+}
+.header-container header nav ul li button{
+    width: 100px;
+    height: 60px;
+    background-color: lightcyan;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+}

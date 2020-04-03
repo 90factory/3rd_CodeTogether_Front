@@ -1,0 +1,16 @@
+.logined-container{
+    width: 300px;
+    height: 350px;
+    box-shadow: 3px 3px rgba(0,0,0,0.5);
+    border-radius: 20px 20px 20px 20px;
+}
+.logined-container .profile{
+    height: 200px;
+    background-color: lightseagreen;
+    border-radius: 20px 20px 0 0;
+}
+.logined-container .profile-info{
+    background-color: lightskyblue;
+    height: 150px;
+    border-radius: 0 0 20px 20px;
+}
